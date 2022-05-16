@@ -4,11 +4,11 @@ lxml
 wget
 beautifulsoup4
 requests
-logging42==0.0.7
 python-telegram-bot==12.8
 sqlalchemy==1.4.36
 PyDictionary==2.0.1
 psycopg==3.0.14
+logging42==0.0.7
 feedparser
 hachoir
 pynewtonmath
