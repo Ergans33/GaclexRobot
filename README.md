@@ -6,7 +6,7 @@
 
  
 
- <p align="center"> GarlexRobot
+ <p align="center"> GaclexRobot
 Bot Manager Assisten </p>
 
 
