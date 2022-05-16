@@ -41,7 +41,7 @@ if ENV:
     OWNER_USERNAME = os.environ.get("OWNER_USERNAME", None)
 
     try:
-        GEEZ = set(int(x) for x in os.environ.get("GEEZ", "").split())
+        GACLEX = set(int(x) for x in os.environ.get("GACLEX", "").split())
         DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "").split())
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
@@ -115,7 +115,7 @@ else:
     OWNER_USERNAME = Config.OWNER_USERNAME
     ALLOW_CHATS = Config.ALLOW_CHATS
     try:
-        GEEZ = set(int(x) for x in Config.GEEZ or [])
+        GACLEX = set(int(x) for x in Config.GACLEX or [])
         DEV_USERS = set(int(x) for x in Config.DEV_USERS or [])
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
