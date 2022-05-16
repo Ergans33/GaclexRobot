@@ -25,7 +25,7 @@ async def user_is_admin(user_id: int, message):
     async for user in telethn.iter_participants(
         message.chat_id, filter=ChannelParticipantsAdmins
     ):
-        if user_id == user.id or user_id in GEEZ:
+        if user_id == user.id or user_id in GACLEX:
             status = True
             break
     return status
