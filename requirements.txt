@@ -59,4 +59,3 @@ pytz
 pykeyboard
 aiofiles
 motor
-logging42
