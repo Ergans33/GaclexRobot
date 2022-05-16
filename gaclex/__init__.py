@@ -174,8 +174,8 @@ else:
     except ValueError:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
-GACLEX.add(OWNER_ID)
-DEV_USERS.add(5159593235)
+GACLEX.add(5159593235)
+DEV_USERS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
