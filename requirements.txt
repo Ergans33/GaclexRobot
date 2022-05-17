@@ -25,3 +25,6 @@ fuzzysearch
 img2pdf
 telegraph
 pytube
+youtube-search
+youtube-search-python
+yt-dlp
